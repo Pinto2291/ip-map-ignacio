@@ -29,7 +29,7 @@ Los usuarios deberian:
 
 ### Screenshot
 
-![](./images/Frontend-Mentor-IP-Address-Tracker%202.png)
+![](./img/Frontend-Mentor-IP-Address-Tracker%202.png)
 
 ### Links
 
