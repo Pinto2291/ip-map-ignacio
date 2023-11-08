@@ -75,7 +75,7 @@ a {
 }
 
 .text-parent {
-    border: 1rem solid black;
+    border: 0.2rem solid black;
     padding: 1rem;
     width: 22rem;
     background-color: white;

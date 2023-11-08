@@ -33,7 +33,7 @@ Los usuarios deberian:
 
 ### Links
 
-- Sitio desplegado URL: [Add live site URL here](https://github.com/Pinto2291/ip-tracker-proyecto)
+- Sitio desplegado URL: [Add live site URL here](https://pinto2291.github.io/ip-map-ignacio/)
 
 ## Mi proceso
 
