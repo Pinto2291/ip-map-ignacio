@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | IP Address Tracker</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+     integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+     crossorigin=""/>
+      <!-- Make sure you put this AFTER Leaflet's CSS -->
+ <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+ integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+ crossorigin=""></script>
+</head>
+<body>
+
+  <h1 class="h1-text text-center">IP tracker by Ignacio</h1>
+
+  <div class="search-ip">
+
+    <input class="input-search" id="input_ip" type="text">
+
+    <button id="btn_ip" class="btn pointer">search</button>
+
+  </div>
+
+  <div class="result-info">
+    
+    <p class="text-p text-parent">Country: <span id="country" class="text-p"></span></p>
+    <p class="text-p text-parent">Region: <span id="region" class="text-p"></span></p>
+    <p class="text-p text-parent">City: <span id="city" class="text-p"></span></p>
+    <p class="text-p text-parent">Latitude: <span id="latitude" class="text-p"></span></p>
+    <p class="text-p text-parent">Longitude: <span id="longitude" class="text-p"></span></p>
+    <p class="text-p text-parent">Postal code: <span id="postal_code" class="text-p"></span></p>
+    
+  </div>
+
+  <div id="map"></div>
+
+  
+
+  <footer class="footer">
+
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Ignacio Pinto</a>.
+    </div>
+  
+  </footer>
+    
+  <script type="module" src="./js/iptrack.js"></script>
+  <script type="module" src="./js/index.js"></script>
+
+</body>
+</html>
